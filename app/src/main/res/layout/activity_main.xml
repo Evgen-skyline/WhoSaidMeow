@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="2"
+    android:rowCount="3"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/mCowButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cow"/>
+
+    <ImageButton
+        android:id="@+id/mChickenButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/chicken"/>
+
+    <ImageButton
+        android:id="@+id/mCatButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cat"/>
+
+    <ImageButton
+        android:id="@+id/mDuckButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/duck"/>
+
+    <ImageButton
+        android:id="@+id/mDonkeyButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/donkey"/>
+
+    <ImageButton
+        android:id="@+id/mDogButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/dog"/>
+
+
+</GridLayout>
